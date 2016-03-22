@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">client2</string>
+    <string name="label_different_user">error</string>
 </resources>

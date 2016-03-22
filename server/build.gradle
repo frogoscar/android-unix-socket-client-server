@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.2"
 
     defaultConfig {
-        applicationId "com.ercom.server"
+        applicationId "com.enmingx.server"
         minSdkVersion 18
         targetSdkVersion 23
         versionCode 1
@@ -23,6 +23,10 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+        }
+        debug {
+            jniDebuggable true
         }
     }
 }

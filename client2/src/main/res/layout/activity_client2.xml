@@ -7,10 +7,11 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.ercom.client2.Client2">
+    tools:context="com.enmingx.client2.Client2">
 
-    <TextView
+    <Button
+        android:id="@+id/connect_server_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Connect Server" />
 </RelativeLayout>

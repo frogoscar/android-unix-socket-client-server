@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ercom.client2">
+    package="com.enmingx.client2"
+    android:sharedUserLabel="@string/label_different_user"
+    android:sharedUserId="com.error"
+    android:versionName="1.0.0"
+    android:versionCode="1" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"

@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.ercom.server.Server">
+    tools:context="com.enmingx.server.Server">
 
     <Button
         android:id="@+id/start_server_button"

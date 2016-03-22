@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.ercom.socket.Client1">
+    tools:context="com.enmingx.socket.Client1">
 
     <Button
         android:id="@+id/connect_server_button"
