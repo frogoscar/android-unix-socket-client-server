@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">socket</string>
+    <string name="label_shared_user">ercom</string>
 </resources>
