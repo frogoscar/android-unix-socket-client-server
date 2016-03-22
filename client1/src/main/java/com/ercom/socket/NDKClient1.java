@@ -9,7 +9,7 @@ public class NDKClient1 {
         System.loadLibrary("Client1Jni");
     }
 
-    public native void connectServer();
+    public native String connectServer();
 
     public native String getMyString();
 }

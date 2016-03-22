@@ -18,9 +18,9 @@ JNIEXPORT jstring JNICALL Java_com_ercom_server_NDKServer_getMyString
 /*
  * Class:     com_ercom_server_NDKServer
  * Method:    startServer
- * Signature: ()V
+ * Signature: ()Ljava/lang/String;
  */
-JNIEXPORT void JNICALL Java_com_ercom_server_NDKServer_startServer
+JNIEXPORT jstring JNICALL Java_com_ercom_server_NDKServer_startServer
   (JNIEnv *, jobject);
 
 #ifdef __cplusplus

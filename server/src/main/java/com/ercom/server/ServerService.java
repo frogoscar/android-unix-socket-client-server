@@ -32,6 +32,10 @@ public class ServerService extends Service {
     public void onCreate() {
         super.onCreate();
 
-        Log.i(TAG, "ServerService start");
+        NDKServer mNDKServer = new NDKServer();
+
+        Log.i(TAG, "ServerService started");
+
+        Log.i(TAG, mNDKServer.startServer());
     }
 }

@@ -2,7 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.ercom.socket"
     android:sharedUserLabel="@string/label_shared_user"
-    android:sharedUserId="com.ercom" >
+    android:sharedUserId="com.ercom"
+    android:versionName="2.0.0"
+    android:versionCode="2" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"

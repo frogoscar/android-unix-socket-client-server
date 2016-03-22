@@ -26,8 +26,8 @@ public class Client1 extends AppCompatActivity {
         btnConnectServer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mNDKClient1.connectServer();
-                Log.i(TAG, "Button clicked, client1 connected to Server");
+                Log.i(TAG, "Button clicked");
+                Log.i(TAG, mNDKClient1.connectServer());
             }
         });
     }

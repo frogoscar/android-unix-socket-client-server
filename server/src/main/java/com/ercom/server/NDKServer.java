@@ -11,5 +11,5 @@ public class NDKServer {
 
     public native String getMyString();
 
-    public native void startServer();
+    public native String startServer();
 }
